@@ -190,7 +190,6 @@ h3 {
 
 /* Quienes Somos */
 .quienessomos {
-    display: flex;
     justify-content: center;
     padding: 5rem 0;
     gap: 2rem;
@@ -198,10 +197,11 @@ h3 {
 .quienessomos-contenido {
     text-align: center;
     padding-top: 5rem;
-    padding: 1.5rem;
+    padding: 0 2rem;
 }
-.quienessomos-contenido-video {
+.quienessomos-video {
     padding: 20rem 20rem;
+    margin: 0 2rem;
     background-color: var(--negro);
     display: flex;
     justify-content: center;
@@ -220,17 +220,21 @@ h3 {
     font-size: 3rem;
     color: #676767;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .quienessomos {
+        display: flex;
         padding: 15rem 0;
-        width: 80rem;
+        gap: 3rem;
+        align-items: center;
     }
     .quienessomos-contenido {
         text-align: initial;
+        width: 50%;
     }
 
-    .quienessomos-contenido-video {
-        padding: 20rem 15rem;
+    .quienessomos-video {
+        padding: 20rem 30rem;
+        margin: 0 2rem;
         border-radius: .5rem;
     }
     .quienessomos-contenido-titulo {
@@ -332,6 +336,7 @@ h3 {
 
 }
 .beneficios-contenido-lista {
+    padding: 0 2rem;
     font-size: 3rem;
     list-style: none;
     color: #676767;
@@ -374,6 +379,7 @@ h3 {
         font-size: 3rem;
         list-style: none;
         color: #676767;
+        padding: 0;
     }
     .beneficios-imagen img{
         padding-top: 12rem;
