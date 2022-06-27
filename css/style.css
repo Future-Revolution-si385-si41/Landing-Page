@@ -272,6 +272,7 @@ h3 {
 .funcionamiento-contenido-texto {
     color: #676767;
     font-size: 3rem;
+    padding: 0 2rem;
 }
 .funcionamiento-imagen img{
     max-height: 80rem;
@@ -304,6 +305,7 @@ h3 {
     .funcionamiento-contenido-texto {
         color: #676767;
         font-size: 3rem;
+        padding: 0;
     }
     .funcionamiento-imagen img{
         max-height: 80rem;
@@ -403,11 +405,10 @@ h3 {
     padding: 5rem 0;
 }
 .descargar-contenido {
-    padding-top: 5rem;
+    padding: 5rem 2rem;
 }
 
 .descargar-contenido{
-    padding: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -438,14 +439,13 @@ h3 {
 }
 @media (min-width: 1440px) {
     .descargar {
-        padding: 15rem 5rem;
+        padding: 15rem 0rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
     }
     .descargar-contenido{
-        padding: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
