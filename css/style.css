@@ -258,7 +258,6 @@ h3 {
 }
 
 .funcionamiento-contenido{
-    padding: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,14 +283,13 @@ h3 {
 }
 @media (min-width: 1440px) {
     .funcionamiento {
-        padding: 15rem 5rem;
+        padding: 15rem 0rem;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
     }
     .funcionamiento-contenido{
-        padding: 10rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
