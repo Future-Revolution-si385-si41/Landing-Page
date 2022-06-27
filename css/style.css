@@ -226,6 +226,7 @@ h3 {
         padding: 15rem 0;
         gap: 3rem;
         align-items: center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .quienessomos-contenido {
         text-align: initial;
@@ -293,6 +294,7 @@ h3 {
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .funcionamiento-contenido{
         display: flex;
@@ -368,6 +370,8 @@ h3 {
         display: grid;
         grid-template-columns: repeat(2,1fr);
         column-gap: 5rem;
+        border-bottom: 1px solid #F64C4C ;
+
     }
     .beneficios-contenido-titulo {
         font-size: 6rem;
@@ -450,6 +454,7 @@ h3 {
         grid-template-columns: repeat(2,1fr);
         column-gap: 3rem;
         align-items:center;
+        border-bottom: 1px solid #F64C4C ;
     }
     .descargar-contenido{
         display: flex;
